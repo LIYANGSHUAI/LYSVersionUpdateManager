@@ -16,6 +16,8 @@
 		CC33385022E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33384F22E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoTests.m */; };
 		CC33385B22E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33385A22E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoUITests.m */; };
 		CC33386B22E060DE0007FCC6 /* LYSVersionUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33386A22E060DE0007FCC6 /* LYSVersionUpdateManager.m */; };
+		CC456BBB22E1553F0045F0BA /* LYSVersionUpdateManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC456BBA22E1553F0045F0BA /* LYSVersionUpdateManager.podspec */; };
+		CC456BBD22E155440045F0BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC456BBC22E155440045F0BA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		CC33385C22E05F0B0007FCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC33386922E060DE0007FCC6 /* LYSVersionUpdateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSVersionUpdateManager.h; sourceTree = "<group>"; };
 		CC33386A22E060DE0007FCC6 /* LYSVersionUpdateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSVersionUpdateManager.m; sourceTree = "<group>"; };
+		CC456BBA22E1553F0045F0BA /* LYSVersionUpdateManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSVersionUpdateManager.podspec; path = ../../LYSVersionUpdateManager.podspec; sourceTree = "<group>"; };
+		CC456BBC22E155440045F0BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				CC33383722E05F0A0007FCC6 /* AppDelegate.m */,
 				CC33383922E05F0A0007FCC6 /* ViewController.h */,
 				CC33383A22E05F0A0007FCC6 /* ViewController.m */,
+				CC456BBC22E155440045F0BA /* README.md */,
+				CC456BBA22E1553F0045F0BA /* LYSVersionUpdateManager.podspec */,
 				CC33386822E060B00007FCC6 /* LYSVersionUpdateManager */,
 				CC33383C22E05F0A0007FCC6 /* Main.storyboard */,
 				CC33383F22E05F0B0007FCC6 /* Assets.xcassets */,
@@ -251,7 +257,9 @@
 			files = (
 				CC33384322E05F0B0007FCC6 /* LaunchScreen.storyboard in Resources */,
 				CC33384022E05F0B0007FCC6 /* Assets.xcassets in Resources */,
+				CC456BBD22E155440045F0BA /* README.md in Resources */,
 				CC33383E22E05F0A0007FCC6 /* Main.storyboard in Resources */,
+				CC456BBB22E1553F0045F0BA /* LYSVersionUpdateManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
