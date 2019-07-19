@@ -1,7 +1,7 @@
 # LYSVersionUpdateManager
 实现版本更新逻辑,用户只需要关注获取新版本信息和弹窗样式即可
 
-[iOS技术群群二维码](https://github.com/LIYANGSHUAI/LYSDatePicker/blob/master/resource/iOS技术群群二维码.JPG)
+[iOS技术群群二维码](https://github.com/LIYANGSHUAI/LYSRepository/blob/master/iOS技术群群二维码.JPG)
 
 ```objc
 @interface LYSVersionUpdateManager : NSObject
