@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17957843EBC3C0911801D6DD0EBA5605 /* Pods-LYSVersionUpdateManagerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 911BF778521AA72C2317BA3A91ADF448 /* Pods-LYSVersionUpdateManagerDemoUITests-dummy.m */; };
+		22D8E84AE1B9BE97DAD7974232FED20D /* Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64888D8E23481801129199C78E70B60B /* Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516E93FEA314D943FADBB304EDE1D445 /* LYSReachabilityManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD75791A8D5C36DB85C411C4C3AC398 /* LYSReachabilityManager-dummy.m */; };
+		6551FF95C9E99B9338B33F6C8764B5DD /* Pods-LYSVersionUpdateManagerDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7EE2BA96090B6C39DA85A9DB189DB9 /* Pods-LYSVersionUpdateManagerDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66876A1D2690A0DFA1FE979D4857C9E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77ED2447E76B5591BB4A7D98B09E34D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7838967E5836B2A57284138424B77220 /* Pods-LYSVersionUpdateManagerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EBDD42FC27736815C7C93F541A12BE /* Pods-LYSVersionUpdateManagerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5A4BC597524CBC531A12F8CA817DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		86147895D93A84CE10B87D5294D1D9E3 /* LYSNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C39B8EB36458523F2721C2C1C6C979 /* LYSNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A0C6A403AE136AF70F7C0EBFC524B89 /* Pods-LYSVersionUpdateManagerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE6C6A9526CC01A6D4C01797252A7C /* Pods-LYSVersionUpdateManagerDemoTests-dummy.m */; };
+		A4DB70151A4B0C4EB52ACABF66D8C357 /* Pods-LYSVersionUpdateManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C6824CBDF4232954049CA7E2BBA31 /* Pods-LYSVersionUpdateManagerDemo-dummy.m */; };
+		B796470AA8D860B385E244099A9C1115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BFD2A005A3AF353FE43E5DBA1FAFB597 /* LYSReachabilityManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7443BC124493E74730AA39807FF8D66 /* LYSReachabilityManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEAD6647CBF20A69F7C25DFE665821F /* LYSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BF2B2F3645516254FC1534F91229EA /* LYSReachabilityManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C447D76DA0CE043883D57400C052A08D /* LYSNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFFC7FDE25E08F292A89C5A79C7690 /* LYSNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9ACF962EDA4915D1E8F854E2DE4D709 /* LYSReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9336A04E81337341D6BE5B679CA808A6 /* LYSReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BCD62AEBE8D7F1B0BEA81244C1EA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEF70D2B1AA822CE038052165E32619;
+			remoteInfo = "Pods-LYSVersionUpdateManagerDemo";
+		};
+		857D282E95F01EAD8F7616E57953C2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72CAD995B5596AF35F37D69D9F96729;
+			remoteInfo = LYSReachabilityManager;
+		};
+		C572D64F042163E5C98EA21B56570874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEF70D2B1AA822CE038052165E32619;
+			remoteInfo = "Pods-LYSVersionUpdateManagerDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A6E67A86E8AD85E5D2E0804B5193A0 /* LYSReachabilityManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYSReachabilityManager.modulemap; sourceTree = "<group>"; };
+		05283EF322B976232363A2047DDFD638 /* Pods-LYSVersionUpdateManagerDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYSVersionUpdateManagerDemoTests.modulemap"; sourceTree = "<group>"; };
+		061F3E3EC5E2FC53D34691EA70EE37A5 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0756B639D8FD4DDE8821FC00F27331AD /* Pods_LYSVersionUpdateManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYSVersionUpdateManagerDemo.framework; path = "Pods-LYSVersionUpdateManagerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A48B4E33B9B4ACF983BF6302B911FC4 /* LYSReachabilityManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYSReachabilityManager-Info.plist"; sourceTree = "<group>"; };
+		0E17EAEE07EE3ABADD1EB81294448D2F /* Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17DFFC7FDE25E08F292A89C5A79C7690 /* LYSNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSNetworkReachabilityManager.m; path = LYSReachabilityManager/LYSNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		1DF9E00E6DC9BE34460B588A004D3108 /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20886C1715F77083E5EDAA5743F92966 /* LYSReachabilityManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYSReachabilityManager.xcconfig; sourceTree = "<group>"; };
+		277E5FC1F3110EC06E6A1BB94D8CF534 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		315F1D1054BCE54FE134CAA690AD795D /* Pods-LYSVersionUpdateManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38B6A34A8CCEE89B519E8697116A8736 /* Pods-LYSVersionUpdateManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYSVersionUpdateManagerDemo.modulemap"; sourceTree = "<group>"; };
+		3C7CC7B82A072F5758B8A7A300F1717C /* Pods-LYSVersionUpdateManagerDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYSVersionUpdateManagerDemoUITests.modulemap"; sourceTree = "<group>"; };
+		4E202044B939ED4CFDE8B7022C2F127A /* Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F2434B396CF5CCB252B6BAD8077C7E9 /* Pods-LYSVersionUpdateManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYSVersionUpdateManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		54DF1EB2C4A78AB2D3B3382C6293EBC3 /* LYSReachabilityManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSReachabilityManager-prefix.pch"; sourceTree = "<group>"; };
+		5DAEB4067056298DE0287E67BA4B4CAB /* Pods_LYSVersionUpdateManagerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYSVersionUpdateManagerDemoTests.framework; path = "Pods-LYSVersionUpdateManagerDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3F98BD3E09FF5FF9197B2B0575420 /* LYSReachabilityManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYSReachabilityManager.framework; path = LYSReachabilityManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64888D8E23481801129199C78E70B60B /* Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		66CC04189A406D935E7BEC5B442475E0 /* Pods-LYSVersionUpdateManagerDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		805E5AA75F5C47DC76A2EE7A879D0907 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7EE2BA96090B6C39DA85A9DB189DB9 /* Pods-LYSVersionUpdateManagerDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYSVersionUpdateManagerDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		8D6C6824CBDF4232954049CA7E2BBA31 /* Pods-LYSVersionUpdateManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYSVersionUpdateManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		911BF778521AA72C2317BA3A91ADF448 /* Pods-LYSVersionUpdateManagerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYSVersionUpdateManagerDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		9336A04E81337341D6BE5B679CA808A6 /* LYSReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSReachabilityManager.h; path = LYSReachabilityManager/LYSReachabilityManager.h; sourceTree = "<group>"; };
+		963AD968AB5B5474503F0199F1F53CAE /* Pods-LYSVersionUpdateManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYSVersionUpdateManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD75791A8D5C36DB85C411C4C3AC398 /* LYSReachabilityManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYSReachabilityManager-dummy.m"; sourceTree = "<group>"; };
+		C3C39B8EB36458523F2721C2C1C6C979 /* LYSNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYSNetworkReachabilityManager.h; path = LYSReachabilityManager/LYSNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C9CB48C6CA8C492A4312E02B4206F8AD /* Pods-LYSVersionUpdateManagerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemo-Info.plist"; sourceTree = "<group>"; };
+		CFAE6C6A9526CC01A6D4C01797252A7C /* Pods-LYSVersionUpdateManagerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYSVersionUpdateManagerDemoTests-dummy.m"; sourceTree = "<group>"; };
+		D39676D034809031AB063EF426CE3C19 /* Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9EBDD42FC27736815C7C93F541A12BE /* Pods-LYSVersionUpdateManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYSVersionUpdateManagerDemo-umbrella.h"; sourceTree = "<group>"; };
+		E7443BC124493E74730AA39807FF8D66 /* LYSReachabilityManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYSReachabilityManager-umbrella.h"; sourceTree = "<group>"; };
+		E7BF2B2F3645516254FC1534F91229EA /* LYSReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYSReachabilityManager.m; path = LYSReachabilityManager/LYSReachabilityManager.m; sourceTree = "<group>"; };
+		EAF8D39C0627FF39AF1A9865A808E67F /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE2CABE4ABF637632EF2D1166B30DEDA /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSVersionUpdateManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F389D0EECCF9909C46F9ECE6F3416270 /* Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F45870460B23C878432F7D77711900A6 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYSVersionUpdateManagerDemoUITests.framework; path = "Pods-LYSVersionUpdateManagerDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C92576865AD443E08572825D396648 /* Pods-LYSVersionUpdateManagerDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSVersionUpdateManagerDemoTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3C6B3345350EDEFC7ABAF4D40C331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66876A1D2690A0DFA1FE979D4857C9E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E398967409ED703F304F83CEE7598A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5A4BC597524CBC531A12F8CA817DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E22D0A250B21F59A3373A16E722B160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B796470AA8D860B385E244099A9C1115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4263D3B2E27585A57E5D161F5C04283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ED2447E76B5591BB4A7D98B09E34D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281AF4919F061CF1781E067C9A9D93FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587901702E464CBB41ADCE40D5EB5AAD /* LYSReachabilityManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B27FDBC25E0364EDE38F30ED2623C93 /* Pods-LYSVersionUpdateManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38B6A34A8CCEE89B519E8697116A8736 /* Pods-LYSVersionUpdateManagerDemo.modulemap */,
+				963AD968AB5B5474503F0199F1F53CAE /* Pods-LYSVersionUpdateManagerDemo-acknowledgements.markdown */,
+				315F1D1054BCE54FE134CAA690AD795D /* Pods-LYSVersionUpdateManagerDemo-acknowledgements.plist */,
+				8D6C6824CBDF4232954049CA7E2BBA31 /* Pods-LYSVersionUpdateManagerDemo-dummy.m */,
+				4F2434B396CF5CCB252B6BAD8077C7E9 /* Pods-LYSVersionUpdateManagerDemo-frameworks.sh */,
+				C9CB48C6CA8C492A4312E02B4206F8AD /* Pods-LYSVersionUpdateManagerDemo-Info.plist */,
+				D9EBDD42FC27736815C7C93F541A12BE /* Pods-LYSVersionUpdateManagerDemo-umbrella.h */,
+				805E5AA75F5C47DC76A2EE7A879D0907 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */,
+				EE2CABE4ABF637632EF2D1166B30DEDA /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemo";
+			path = "Target Support Files/Pods-LYSVersionUpdateManagerDemo";
+			sourceTree = "<group>";
+		};
+		48AC91D8F2EEAD9D9CC4DBEFB105C253 /* Pods-LYSVersionUpdateManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				05283EF322B976232363A2047DDFD638 /* Pods-LYSVersionUpdateManagerDemoTests.modulemap */,
+				F389D0EECCF9909C46F9ECE6F3416270 /* Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.markdown */,
+				0E17EAEE07EE3ABADD1EB81294448D2F /* Pods-LYSVersionUpdateManagerDemoTests-acknowledgements.plist */,
+				CFAE6C6A9526CC01A6D4C01797252A7C /* Pods-LYSVersionUpdateManagerDemoTests-dummy.m */,
+				F5C92576865AD443E08572825D396648 /* Pods-LYSVersionUpdateManagerDemoTests-Info.plist */,
+				8A7EE2BA96090B6C39DA85A9DB189DB9 /* Pods-LYSVersionUpdateManagerDemoTests-umbrella.h */,
+				EAF8D39C0627FF39AF1A9865A808E67F /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */,
+				277E5FC1F3110EC06E6A1BB94D8CF534 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemoTests";
+			path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests";
+			sourceTree = "<group>";
+		};
+		51056987146BAAF419CB0B970F4E4D1D /* Pods-LYSVersionUpdateManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CC7B82A072F5758B8A7A300F1717C /* Pods-LYSVersionUpdateManagerDemoUITests.modulemap */,
+				4E202044B939ED4CFDE8B7022C2F127A /* Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.markdown */,
+				D39676D034809031AB063EF426CE3C19 /* Pods-LYSVersionUpdateManagerDemoUITests-acknowledgements.plist */,
+				911BF778521AA72C2317BA3A91ADF448 /* Pods-LYSVersionUpdateManagerDemoUITests-dummy.m */,
+				66CC04189A406D935E7BEC5B442475E0 /* Pods-LYSVersionUpdateManagerDemoUITests-Info.plist */,
+				64888D8E23481801129199C78E70B60B /* Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h */,
+				1DF9E00E6DC9BE34460B588A004D3108 /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */,
+				061F3E3EC5E2FC53D34691EA70EE37A5 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemoUITests";
+			path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests";
+			sourceTree = "<group>";
+		};
+		587901702E464CBB41ADCE40D5EB5AAD /* LYSReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				C3C39B8EB36458523F2721C2C1C6C979 /* LYSNetworkReachabilityManager.h */,
+				17DFFC7FDE25E08F292A89C5A79C7690 /* LYSNetworkReachabilityManager.m */,
+				9336A04E81337341D6BE5B679CA808A6 /* LYSReachabilityManager.h */,
+				E7BF2B2F3645516254FC1534F91229EA /* LYSReachabilityManager.m */,
+				6688FB6E28C7AA9FDF1D148A62F1945D /* Support Files */,
+			);
+			name = LYSReachabilityManager;
+			path = LYSReachabilityManager;
+			sourceTree = "<group>";
+		};
+		6688FB6E28C7AA9FDF1D148A62F1945D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A6E67A86E8AD85E5D2E0804B5193A0 /* LYSReachabilityManager.modulemap */,
+				20886C1715F77083E5EDAA5743F92966 /* LYSReachabilityManager.xcconfig */,
+				9FD75791A8D5C36DB85C411C4C3AC398 /* LYSReachabilityManager-dummy.m */,
+				0A48B4E33B9B4ACF983BF6302B911FC4 /* LYSReachabilityManager-Info.plist */,
+				54DF1EB2C4A78AB2D3B3382C6293EBC3 /* LYSReachabilityManager-prefix.pch */,
+				E7443BC124493E74730AA39807FF8D66 /* LYSReachabilityManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LYSReachabilityManager";
+			sourceTree = "<group>";
+		};
+		82BA2C45EC947DD7162F268832DFB6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3F98BD3E09FF5FF9197B2B0575420 /* LYSReachabilityManager.framework */,
+				0756B639D8FD4DDE8821FC00F27331AD /* Pods_LYSVersionUpdateManagerDemo.framework */,
+				5DAEB4067056298DE0287E67BA4B4CAB /* Pods_LYSVersionUpdateManagerDemoTests.framework */,
+				F45870460B23C878432F7D77711900A6 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4F380D2DF094DD37235D37ECCC0506A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B27FDBC25E0364EDE38F30ED2623C93 /* Pods-LYSVersionUpdateManagerDemo */,
+				48AC91D8F2EEAD9D9CC4DBEFB105C253 /* Pods-LYSVersionUpdateManagerDemoTests */,
+				51056987146BAAF419CB0B970F4E4D1D /* Pods-LYSVersionUpdateManagerDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				281AF4919F061CF1781E067C9A9D93FB /* Pods */,
+				82BA2C45EC947DD7162F268832DFB6CB /* Products */,
+				B4F380D2DF094DD37235D37ECCC0506A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A4760AFB4992BD9D35683A2443A5A41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D8E84AE1B9BE97DAD7974232FED20D /* Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC165957E497D031AEC95300C699AAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86147895D93A84CE10B87D5294D1D9E3 /* LYSNetworkReachabilityManager.h in Headers */,
+				BFD2A005A3AF353FE43E5DBA1FAFB597 /* LYSReachabilityManager-umbrella.h in Headers */,
+				D9ACF962EDA4915D1E8F854E2DE4D709 /* LYSReachabilityManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7ED6C2495CD69F255DA19DD60DF580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7838967E5836B2A57284138424B77220 /* Pods-LYSVersionUpdateManagerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB73A39E37FC0ADBF806FE81242EB401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6551FF95C9E99B9338B33F6C8764B5DD /* Pods-LYSVersionUpdateManagerDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		566936E6ADEB2AEBF3F11021B32E87BC /* Pods-LYSVersionUpdateManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FA9EC14AD149285DE691E47E93063A /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemoTests" */;
+			buildPhases = (
+				EB73A39E37FC0ADBF806FE81242EB401 /* Headers */,
+				DE3918DCA09235F8B608ADCFC3730E1D /* Sources */,
+				3D3C6B3345350EDEFC7ABAF4D40C331D /* Frameworks */,
+				D67ADB479118174E8DC3AFA2358B8AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABA1C77D3AEE6633B1E6B424BDEC5A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemoTests";
+			productName = "Pods-LYSVersionUpdateManagerDemoTests";
+			productReference = 5DAEB4067056298DE0287E67BA4B4CAB /* Pods_LYSVersionUpdateManagerDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8776C9525063470A9DF2530130388A47 /* Pods-LYSVersionUpdateManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D4D7B183C2EF20BFA255F729F44368 /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemoUITests" */;
+			buildPhases = (
+				0A4760AFB4992BD9D35683A2443A5A41 /* Headers */,
+				511979DF78656B1CB3BC91BCCA774390 /* Sources */,
+				6E22D0A250B21F59A3373A16E722B160 /* Frameworks */,
+				15463C75F47F3E766E2B6121F589CC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E223FB0B470A501930D9BBF72F8434D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemoUITests";
+			productName = "Pods-LYSVersionUpdateManagerDemoUITests";
+			productReference = F45870460B23C878432F7D77711900A6 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADEF70D2B1AA822CE038052165E32619 /* Pods-LYSVersionUpdateManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EED3B5101C1FD284E8731EAFB59AE00 /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemo" */;
+			buildPhases = (
+				5B7ED6C2495CD69F255DA19DD60DF580 /* Headers */,
+				01D2C29C83DC990C21719739E6355E12 /* Sources */,
+				D4263D3B2E27585A57E5D161F5C04283 /* Frameworks */,
+				83B3C207F51FD9D43A5358DDF40A30C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E723594836BB266EFA503C8B32C46E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYSVersionUpdateManagerDemo";
+			productName = "Pods-LYSVersionUpdateManagerDemo";
+			productReference = 0756B639D8FD4DDE8821FC00F27331AD /* Pods_LYSVersionUpdateManagerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C72CAD995B5596AF35F37D69D9F96729 /* LYSReachabilityManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8FBBCCE7B6F6675DC9C9ADCC28AB6A /* Build configuration list for PBXNativeTarget "LYSReachabilityManager" */;
+			buildPhases = (
+				2CC165957E497D031AEC95300C699AAC /* Headers */,
+				C0FB8E6DC2DA440A94767D7AA28030B4 /* Sources */,
+				5E398967409ED703F304F83CEE7598A4 /* Frameworks */,
+				B0FC48DAD5265398CA10A5B3FD1B44E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSReachabilityManager;
+			productName = LYSReachabilityManager;
+			productReference = 5EF3F98BD3E09FF5FF9197B2B0575420 /* LYSReachabilityManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 82BA2C45EC947DD7162F268832DFB6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C72CAD995B5596AF35F37D69D9F96729 /* LYSReachabilityManager */,
+				ADEF70D2B1AA822CE038052165E32619 /* Pods-LYSVersionUpdateManagerDemo */,
+				566936E6ADEB2AEBF3F11021B32E87BC /* Pods-LYSVersionUpdateManagerDemoTests */,
+				8776C9525063470A9DF2530130388A47 /* Pods-LYSVersionUpdateManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15463C75F47F3E766E2B6121F589CC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B3C207F51FD9D43A5358DDF40A30C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FC48DAD5265398CA10A5B3FD1B44E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67ADB479118174E8DC3AFA2358B8AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D2C29C83DC990C21719739E6355E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DB70151A4B0C4EB52ACABF66D8C357 /* Pods-LYSVersionUpdateManagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511979DF78656B1CB3BC91BCCA774390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17957843EBC3C0911801D6DD0EBA5605 /* Pods-LYSVersionUpdateManagerDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FB8E6DC2DA440A94767D7AA28030B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C447D76DA0CE043883D57400C052A08D /* LYSNetworkReachabilityManager.m in Sources */,
+				516E93FEA314D943FADBB304EDE1D445 /* LYSReachabilityManager-dummy.m in Sources */,
+				BFEAD6647CBF20A69F7C25DFE665821F /* LYSReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3918DCA09235F8B608ADCFC3730E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0C6A403AE136AF70F7C0EBFC524B89 /* Pods-LYSVersionUpdateManagerDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E723594836BB266EFA503C8B32C46E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYSReachabilityManager;
+			target = C72CAD995B5596AF35F37D69D9F96729 /* LYSReachabilityManager */;
+			targetProxy = 857D282E95F01EAD8F7616E57953C2E5 /* PBXContainerItemProxy */;
+		};
+		6ABA1C77D3AEE6633B1E6B424BDEC5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LYSVersionUpdateManagerDemo";
+			target = ADEF70D2B1AA822CE038052165E32619 /* Pods-LYSVersionUpdateManagerDemo */;
+			targetProxy = 73BCD62AEBE8D7F1B0BEA81244C1EA28 /* PBXContainerItemProxy */;
+		};
+		E223FB0B470A501930D9BBF72F8434D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LYSVersionUpdateManagerDemo";
+			target = ADEF70D2B1AA822CE038052165E32619 /* Pods-LYSVersionUpdateManagerDemo */;
+			targetProxy = C572D64F042163E5C98EA21B56570874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F533BB91DD4398A896BFBD29A09898F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF9E00E6DC9BE34460B588A004D3108 /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30AA84F33C22E7FD9F3706B85C9B7BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805E5AA75F5C47DC76A2EE7A879D0907 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7A00BCFAC36B181D2D898559133BB576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20886C1715F77083E5EDAA5743F92966 /* LYSReachabilityManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager.modulemap";
+				PRODUCT_MODULE_NAME = LYSReachabilityManager;
+				PRODUCT_NAME = LYSReachabilityManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B91254044894C9FB29436B3718D3D906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061F3E3EC5E2FC53D34691EA70EE37A5 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA3A26E3F76C83F50957024F2345CE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20886C1715F77083E5EDAA5743F92966 /* LYSReachabilityManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LYSReachabilityManager/LYSReachabilityManager.modulemap";
+				PRODUCT_MODULE_NAME = LYSReachabilityManager;
+				PRODUCT_NAME = LYSReachabilityManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D020CD88B900E8F65777F26E18EA84B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277E5FC1F3110EC06E6A1BB94D8CF534 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4BE2E19CF166330B5CB6775397C041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF8D39C0627FF39AF1A9865A808E67F /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F00B847D13AAED33984FE8E76FAEAC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2CABE4ABF637632EF2D1166B30DEDA /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FA9EC14AD149285DE691E47E93063A /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BE2E19CF166330B5CB6775397C041D /* Debug */,
+				D020CD88B900E8F65777F26E18EA84B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8FBBCCE7B6F6675DC9C9ADCC28AB6A /* Build configuration list for PBXNativeTarget "LYSReachabilityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A00BCFAC36B181D2D898559133BB576 /* Debug */,
+				BA3A26E3F76C83F50957024F2345CE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EED3B5101C1FD284E8731EAFB59AE00 /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AA84F33C22E7FD9F3706B85C9B7BEA /* Debug */,
+				F00B847D13AAED33984FE8E76FAEAC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D4D7B183C2EF20BFA255F729F44368 /* Build configuration list for PBXNativeTarget "Pods-LYSVersionUpdateManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F533BB91DD4398A896BFBD29A09898F /* Debug */,
+				B91254044894C9FB29436B3718D3D906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

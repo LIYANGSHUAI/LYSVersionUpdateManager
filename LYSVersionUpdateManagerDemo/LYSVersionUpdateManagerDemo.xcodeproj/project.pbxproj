@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5C68D8B433E3EA738B82B14 /* Pods_LYSVersionUpdateManagerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA6AFE9D6BD1DDDC558F28 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */; };
+		BBE0215FB65122602A684343 /* Pods_LYSVersionUpdateManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AC2BDDC03E2A6297F533EA /* Pods_LYSVersionUpdateManagerDemo.framework */; };
+		C22D643040ED6E2B0C2B4C75 /* Pods_LYSVersionUpdateManagerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F98DF2DBB454A7EA4EC8D8 /* Pods_LYSVersionUpdateManagerDemoTests.framework */; };
 		CC33383822E05F0A0007FCC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33383722E05F0A0007FCC6 /* AppDelegate.m */; };
 		CC33383B22E05F0A0007FCC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33383A22E05F0A0007FCC6 /* ViewController.m */; };
 		CC33383E22E05F0A0007FCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC33383C22E05F0A0007FCC6 /* Main.storyboard */; };
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362CFD6438019DB20F7F9511 /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66DA6AFE9D6BD1DDDC558F28 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYSVersionUpdateManagerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7552562166AE9CF0537A00F0 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		923F73193C58AABD702F795B /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoUITests/Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F98DF2DBB454A7EA4EC8D8 /* Pods_LYSVersionUpdateManagerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYSVersionUpdateManagerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AC2BDDC03E2A6297F533EA /* Pods_LYSVersionUpdateManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYSVersionUpdateManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC33383322E05F0A0007FCC6 /* LYSVersionUpdateManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSVersionUpdateManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC33383622E05F0A0007FCC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC33383722E05F0A0007FCC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +67,9 @@
 		CC33386A22E060DE0007FCC6 /* LYSVersionUpdateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSVersionUpdateManager.m; sourceTree = "<group>"; };
 		CC456BBA22E1553F0045F0BA /* LYSVersionUpdateManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LYSVersionUpdateManager.podspec; path = ../../LYSVersionUpdateManager.podspec; sourceTree = "<group>"; };
 		CC456BBC22E155440045F0BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		CD29D341E3AE4A8E9FAEDED1 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemoTests/Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E59043E245F402648550C95D /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemo.release.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F42D269169BD9456640AB890 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSVersionUpdateManagerDemo.debug.xcconfig"; path = "Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE0215FB65122602A684343 /* Pods_LYSVersionUpdateManagerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22D643040ED6E2B0C2B4C75 /* Pods_LYSVersionUpdateManagerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C68D8B433E3EA738B82B14 /* Pods_LYSVersionUpdateManagerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8F1780445DBD6D2FCB2C9EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC2BDDC03E2A6297F533EA /* Pods_LYSVersionUpdateManagerDemo.framework */,
+				B0F98DF2DBB454A7EA4EC8D8 /* Pods_LYSVersionUpdateManagerDemoTests.framework */,
+				66DA6AFE9D6BD1DDDC558F28 /* Pods_LYSVersionUpdateManagerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC33382A22E05F0A0007FCC6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +117,8 @@
 				CC33384E22E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoTests */,
 				CC33385922E05F0B0007FCC6 /* LYSVersionUpdateManagerDemoUITests */,
 				CC33383422E05F0A0007FCC6 /* Products */,
+				D899E2776CCFCA70619F279F /* Pods */,
+				A8F1780445DBD6D2FCB2C9EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +179,19 @@
 			path = ../../LYSVersionUpdateManager;
 			sourceTree = "<group>";
 		};
+		D899E2776CCFCA70619F279F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42D269169BD9456640AB890 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */,
+				E59043E245F402648550C95D /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */,
+				362CFD6438019DB20F7F9511 /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */,
+				CD29D341E3AE4A8E9FAEDED1 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */,
+				923F73193C58AABD702F795B /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */,
+				7552562166AE9CF0537A00F0 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC33385F22E05F0B0007FCC6 /* Build configuration list for PBXNativeTarget "LYSVersionUpdateManagerDemo" */;
 			buildPhases = (
+				D16071405CE129AA878F07DB /* [CP] Check Pods Manifest.lock */,
 				CC33382F22E05F0A0007FCC6 /* Sources */,
 				CC33383022E05F0A0007FCC6 /* Frameworks */,
 				CC33383122E05F0A0007FCC6 /* Resources */,
+				3D02BFC7C4D3E147B5CA0F2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC33386222E05F0B0007FCC6 /* Build configuration list for PBXNativeTarget "LYSVersionUpdateManagerDemoTests" */;
 			buildPhases = (
+				122719941300796FBAF74DF1 /* [CP] Check Pods Manifest.lock */,
 				CC33384722E05F0B0007FCC6 /* Sources */,
 				CC33384822E05F0B0007FCC6 /* Frameworks */,
 				CC33384922E05F0B0007FCC6 /* Resources */,
@@ -194,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC33386522E05F0B0007FCC6 /* Build configuration list for PBXNativeTarget "LYSVersionUpdateManagerDemoUITests" */;
 			buildPhases = (
+				CCE87071A824DEB4EC562C16 /* [CP] Check Pods Manifest.lock */,
 				CC33385222E05F0B0007FCC6 /* Sources */,
 				CC33385322E05F0B0007FCC6 /* Frameworks */,
 				CC33385422E05F0B0007FCC6 /* Resources */,
@@ -278,6 +322,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		122719941300796FBAF74DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSVersionUpdateManagerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D02BFC7C4D3E147B5CA0F2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYSVersionUpdateManagerDemo/Pods-LYSVersionUpdateManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE87071A824DEB4EC562C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSVersionUpdateManagerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16071405CE129AA878F07DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSVersionUpdateManagerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC33382F22E05F0A0007FCC6 /* Sources */ = {
@@ -456,44 +586,47 @@
 		};
 		CC33386022E05F0B0007FCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42D269169BD9456640AB890 /* Pods-LYSVersionUpdateManagerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9P4CA2L57Y;
 				INFOPLIST_FILE = LYSVersionUpdateManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSVersionUpdateManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dx.zhenjiceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = zhenjiceshi;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CC33386122E05F0B0007FCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59043E245F402648550C95D /* Pods-LYSVersionUpdateManagerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9P4CA2L57Y;
 				INFOPLIST_FILE = LYSVersionUpdateManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LYS.LYSVersionUpdateManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dx.zhenjiceshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = zhenjiceshi;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		CC33386322E05F0B0007FCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362CFD6438019DB20F7F9511 /* Pods-LYSVersionUpdateManagerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +645,7 @@
 		};
 		CC33386422E05F0B0007FCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD29D341E3AE4A8E9FAEDED1 /* Pods-LYSVersionUpdateManagerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +664,7 @@
 		};
 		CC33386622E05F0B0007FCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923F73193C58AABD702F795B /* Pods-LYSVersionUpdateManagerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LYSVersionUpdateManagerDemoUITests/Info.plist;
@@ -547,6 +682,7 @@
 		};
 		CC33386722E05F0B0007FCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7552562166AE9CF0537A00F0 /* Pods-LYSVersionUpdateManagerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LYSVersionUpdateManagerDemoUITests/Info.plist;

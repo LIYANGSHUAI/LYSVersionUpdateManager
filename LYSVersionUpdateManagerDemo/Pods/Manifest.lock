@@ -1,0 +1,16 @@
+PODS:
+  - LYSReachabilityManager (0.0.1)
+
+DEPENDENCIES:
+  - LYSReachabilityManager (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LYSReachabilityManager
+
+SPEC CHECKSUMS:
+  LYSReachabilityManager: 45be0df87b763d187ddf00c10067fa95294a4170
+
+PODFILE CHECKSUM: 77f88dd72a6ec9b2f867b83742b754a53706bee0
+
+COCOAPODS: 1.7.4

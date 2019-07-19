@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'LYSVersionUpdateManagerDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LYSVersionUpdateManagerDemo
+
+  target 'LYSVersionUpdateManagerDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LYSVersionUpdateManagerDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+pod 'LYSReachabilityManager', '~> 0.0.1'
+end

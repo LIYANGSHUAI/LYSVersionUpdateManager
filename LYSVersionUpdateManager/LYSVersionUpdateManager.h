@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)lys_willUpdateVersionWithManager:(LYSVersionUpdateManager *)manager;
 
 /**
- 版本比对结束,如果发现新版本,就是触发,否则不触发
+ 版本比对结束,如果发现新版本,就是触发,否则不触发,当用户操作完成之后必须要调用- (void)complateHandle;方法,否则下次不触发更新
 
  @param manager 管理类
  */
@@ -53,6 +53,11 @@ NS_ASSUME_NONNULL_BEGIN
  @param dataParms 版本信息
  */
 - (void)updateVersionNum:(nonnull NSString *)versionNum dataParms:(NSDictionary *)dataParms;
+
+/**
+ 更新完成之后,或者用户对提示已经做出来响应之后,要调用这个方法,否则下次就不会触发代理方法
+ */
+- (void)complateHandle;
 
 @end
 

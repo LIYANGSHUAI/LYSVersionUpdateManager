@@ -12,6 +12,7 @@
 @property (nonatomic, assign) id<LYSVersionUpdateManagerDelegate>target;
 @property (nonatomic, assign) BOOL alertUpdate;
 @property (nonatomic, strong, readwrite) NSDictionary *dataParms;
+@property (nonatomic, assign) BOOL canAlert;
 @end
 
 @implementation LYSVersionUpdateManager
@@ -31,11 +32,14 @@
     [[LYSVersionUpdateManager manager] setTarget:target];
     [[NSNotificationCenter defaultCenter] addObserver:[LYSVersionUpdateManager manager] selector:@selector(didEnterBackground:) name:UIApplicationDidEnterBackgroundNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:[LYSVersionUpdateManager manager] selector:@selector(didBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
+    [[LYSVersionUpdateManager manager] setCanAlert:YES];
 }
 
 - (void)didEnterBackground:(NSNotification *)notifition
 {
-    self.alertUpdate = NO;
+    if (self.canAlert == YES) {
+        self.alertUpdate = NO;
+    }
     NSLog(@"didEnterBackground");
 }
 
@@ -54,9 +58,15 @@
     NSString *currentVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     if (![currentVersion isEqualToString:versionNum]) {
         if (self.target && [self.target respondsToSelector:@selector(lys_startUpdateVersionWithManager:)]) {
+            self.canAlert = NO;
             [self.target lys_startUpdateVersionWithManager:self];
         }
     }
+}
+
+- (void)complateHandle
+{
+    self.canAlert = YES;
 }
 
 @end

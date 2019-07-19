@@ -4,6 +4,42 @@
 ![iOS技术群群二维码](https://github.com/LIYANGSHUAI/LYSRepository/blob/master/iOS技术群群二维码.JPG)
 
 ```objc
+// 使用方法
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+// Override point for customization after application launch.
+
+[LYSVersionUpdateManager regiserWithTarget:self];
+
+return YES;
+}
+
+- (void)lys_willUpdateVersionWithManager:(LYSVersionUpdateManager *)manager
+{
+LYSIF_NETWORK_WIFI_BEGIN
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+[manager updateVersionNum:@"2.0.0" dataParms:@{@"newVersion":@"2.0.0"}];
+});
+LYSIF_NETWORK_END
+}
+
+- (void)lys_startUpdateVersionWithManager:(LYSVersionUpdateManager *)manager
+{
+NSString *message = [NSString stringWithFormat:@"检测到新版本%@,是否更新?",manager.dataParms[@"newVersion"]];
+UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:(UIAlertControllerStyleAlert)];
+UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"放弃" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction * _Nonnull action) {
+[manager complateHandle];
+}];
+UIAlertAction *commitAction = [UIAlertAction actionWithTitle:@"更新" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
+[manager complateHandle];
+}];
+[alert addAction:cancelAction];
+[alert addAction:commitAction];
+UIViewController *vc = self.window.rootViewController;
+[vc presentViewController:alert animated:YES completion:nil];
+}
+```
+
+```objc
 @interface LYSVersionUpdateManager : NSObject
 
 /**

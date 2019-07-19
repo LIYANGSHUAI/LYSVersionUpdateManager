@@ -1,0 +1,6 @@
+framework module Pods_LYSVersionUpdateManagerDemoUITests {
+  umbrella header "Pods-LYSVersionUpdateManagerDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

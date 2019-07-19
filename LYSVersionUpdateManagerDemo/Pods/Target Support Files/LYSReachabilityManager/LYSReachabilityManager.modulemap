@@ -1,0 +1,6 @@
+framework module LYSReachabilityManager {
+  umbrella header "LYSReachabilityManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
